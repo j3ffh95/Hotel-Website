@@ -36,7 +36,7 @@ p {
 }
 
 .text-primary {
-  color: #f7c08a;
+  color: #dfa974;
 }
 
 .lead {
@@ -54,7 +54,7 @@ p {
 }
 
 .btn:hover {
-  background: #f7c08a;
+  background: #dfa974;
   color: #333;
 }
 
@@ -63,18 +63,13 @@ p {
   color: #333;
 }
 
-.bg-dark {
-  background: #333;
-  color: #fff;
-}
-
 .bg-light {
   background: #f4f4f4;
   color: #333;
 }
 
 .bg-primary {
-  background: #f7c08a;
+  background: #dfa974;
   color: #333;
 }
 
@@ -95,7 +90,7 @@ p {
   padding: 20px 0;
 }
 .py-3 {
-  padding: 30px 0;
+  padding: 60px 0;
 }
 
 /* Navbar */
@@ -134,13 +129,13 @@ p {
 #navbar ul li a:hover,
 #navbar ul li a.current {
   /* background: #444; */
-  border-bottom: 2px solid #f7c08a;
+  border-bottom: 2px solid #dfa974;
   border-bottom-width: 2px;
 }
 
 /* Showcase */
 #showcase {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
     url("../img/showcase.jpg") no-repeat center center/cover;
   height: 600px;
 }
@@ -163,13 +158,16 @@ p {
 
 /* Home Info */
 #home-info {
-  height: 450px;
+  height: 40rem;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 #home-info .info-img {
   float: left;
   width: 50%;
-  background: url("../img/photo-1.jpg") no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url("../img/photo-1.jpg") no-repeat center/cover;
   min-height: 100%;
 }
 
@@ -187,6 +185,7 @@ p {
 }
 
 /* Features */
+
 .box {
   float: left;
   width: 33.3%;
@@ -209,7 +208,7 @@ p {
   display: block;
   margin: auto;
   width: 70%;
-  border-radius: 50%;
+  border-radius: 5%;
 }
 
 #about-info .info-left {
@@ -269,7 +268,7 @@ p {
 #contact-form input:focus,
 #contact-form textarea:focus {
   outline: none;
-  border-color: #f7c08a;
+  border-color: #dfa974;
 }
 
 /* Footer */
@@ -278,4 +277,5 @@ p {
   background: #444;
   color: #fff;
   padding: 20px;
+  margin-top: 100px;
 }
